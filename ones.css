@@ -1,0 +1,720 @@
+@media screen and (max-width: 340px){
+    header{
+        display: block;
+        width:94%;
+        height: 150px;
+        gap: 5px;
+        z-index: 2;
+        background-color: rgba(160, 80, 5, 0.747);
+        position: absolute;
+        border-radius: 12px;
+        border: 0;
+        top: 10px;
+        animation: ano 10s ease;
+        transition: all 2s;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .button{
+        background-color: rgba(160, 80, 5, 0.747);
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        position: relative;
+        top: 30px;
+        left: 15px;
+        color: white;
+        margin-left: 10px;
+        font-family: myfont;
+        margin-top: -20px;
+        transition: 800ms ease-in;
+        align-content: center;
+    }
+    .btn{
+        color: white;
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        align-content: center;
+        position: relative;
+        top: 30px;
+        left: -20px;
+        border: solid 1px white;
+        transition: 800ms ease-in;
+        margin-left: 80px;
+        font-family: myfont;
+        margin-top: -20px;
+    }
+    .fl{
+        display: flex;
+        justify-content: center;
+    }
+    .p2{
+        opacity: 0;
+        visibility: hidden;
+    }
+    .p1{
+        width: 2000rem;
+        height: 120rem;
+        margin-left: 16px;
+        display: block;
+        position: relative;
+        top: 90px;
+        overflow: visible;
+    }
+    .box1{
+        color: white;
+        border-radius: 10px;
+        background-color: transparent;
+        position: relative;
+        top: 25px; left: 0px;
+        padding: 10px;
+        height: 38rem;
+        width: 20rem;
+        font-size: 17px;
+        overflow: hidden;
+    }
+    .tbox1{
+        animation: animation 2s ease-in-out;
+        position: relative;
+        top: 0px;
+        left: 5px;
+    }
+    @keyframes animation {
+        0%{
+            position: relative;
+            left: -100%;
+            top: 0px;
+        }
+        
+        100%{
+            position: relative;
+            left: 5px;
+            top: 0px;
+        }
+    }
+    #fab{
+        color: white;
+        position: relative;
+        top:10px;
+        left: 16.4rem;
+        background-color: rgba(24, 14, 37, 0.315);
+        height: 40px;
+        width: 40px;
+        border-radius: 35%;
+        padding: 10px 13px;
+        transition: all 800ms ease-in;
+        opacity: 1;
+        animation: fab 4S ease;
+    }
+    .flex{
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        position: relative;
+        top: 25px; left: -3px;
+        padding: 10px;
+        width: 20rem;
+        height: 46rem;
+        font-size: 13px;
+        transition: all 800ms ease-in;
+        overflow: hidden;
+        font-size: 19px;
+        animation: flex 4s ease;
+    }
+    .expl{
+        position: relative;
+        top: 40px;
+    }
+    .box2{
+        position: relative;
+        top: 50px; left: 3px;
+        padding: 10px;
+        height: 14rem;
+        width: 20rem;
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        animation :  anni 5s ease-in;
+        color: white;
+        font-size: 17px;
+        transition: all 800ms ease-in;
+    }
+    .imgs{
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        position: relative;
+        top: 95px; left: -13px;
+        padding: 10px;
+        width: 20rem;
+        height: 20rem;
+        font-size: 20px;
+        transition: all 800ms ease-in;
+        background-image: url(one.jpg);
+        overflow: hidden;
+        font-size: 22px;
+        background-size: cover;
+        animation: imgs 60s ease;
+    }
+    .box3{
+        position: relative;
+        top: 30rem;
+        padding: 10px;
+        height: 38rem;
+        width: 20rem;
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        animation :  annis 5s ease-in;
+        overflow: hidden;
+        color: white;
+        font-size: 18px;
+        transition: all 800ms ease-in;
+        display: block;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 420px){
+    header{
+        display: block;
+        width:94%;
+        height: 150px;
+        gap: 5px;
+        z-index: 2;
+        background-color: rgba(160, 80, 5, 0.747);
+        position: absolute;
+        border-radius: 12px;
+        border: 0;
+        top: 10px;
+        animation: ano 10s ease;
+        transition: all 2s;
+        font-size: 14px;
+        margin-left: 12px;
+    }
+    .button{
+        background-color: rgba(160, 80, 5, 0.747);
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        position: relative;
+        top: 30px;
+        left: 15px;
+        color: white;
+        margin-left: 10px;
+        font-family: myfont;
+        margin-top: -20px;
+        transition: 800ms ease-in;
+        align-content: center;
+    }
+    .btn{
+        color: white;
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        align-content: center;
+        position: relative;
+        top: 30px;
+        left: -20px;
+        border: solid 1px white;
+        transition: 800ms ease-in;
+        margin-left: 80px;
+        font-family: myfont;
+        margin-top: -20px;
+    }
+    .fl{
+        display: flex;
+        justify-content: center;
+    }
+    .p2{
+        opacity: 0;
+        visibility: hidden;
+    }
+    .p1{
+        width: 2000rem;
+        height: 120rem;
+        margin-left: 12px;
+        display: block;
+        position: relative;
+        top: 90px;
+        overflow: visible;
+    }
+    .box1{
+        color: white;
+        border-radius: 10px;
+        background-color: transparent;
+        position: relative;
+        top: 25px; left: 30px;
+        padding: 10px;
+        height: 38rem;
+        width: 20rem;
+        font-size: 17px;
+        overflow: hidden;
+    }
+    .tbox1{
+        animation: animation 2s ease-in-out;
+        position: relative;
+        top: 0px;
+        left: 5px;
+    }
+    @keyframes animation {
+        0%{
+            position: relative;
+            left: -100%;
+            top: 0px;
+        }
+        
+        100%{
+            position: relative;
+            left: 5px;
+            top: 0px;
+        }
+    }
+    #fab{
+        color: white;
+        position: relative;
+        top:10px;
+        left: 16.4rem;
+        background-color: rgba(24, 14, 37, 0.315);
+        height: 40px;
+        width: 40px;
+        border-radius: 35%;
+        padding: 10px 13px;
+        transition: all 800ms ease-in;
+        opacity: 1;
+        animation: fab 4S ease;
+    }
+    .flex{
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        position: relative;
+        top: 25px; left: -3px;
+        padding: 10px;
+        width: 20rem;
+        height: 46rem;
+        font-size: 13px;
+        transition: all 800ms ease-in;
+        overflow: hidden;
+        font-size: 19px;
+        animation: flex 4s ease;
+    }
+    .expl{
+        position: relative;
+        top: 40px;
+    }
+    .box2{
+        position: relative;
+        top: 50px; left: 35px;
+        padding: 10px;
+        height: 14rem;
+        width: 20rem;
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        animation :  anni 5s ease-in;
+        color: white;
+        font-size: 17px;
+        transition: all 800ms ease-in;
+    }
+    .imgs{
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        position: relative;
+        top: 95px; left: -10px;
+        padding: 10px;
+        width: 20rem;
+        height: 20rem;
+        font-size: 20px;
+        transition: all 800ms ease-in;
+        background-image: url(one.jpg);
+        overflow: hidden;
+        font-size: 22px;
+        background-size: cover;
+        animation: imgs 60s ease;
+    }
+    .box3{
+        position: relative;
+        top: 30rem; left: 35px;
+        padding: 10px;
+        height: 38rem;
+        width: 20rem;
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        animation :  annis 5s ease-in;
+        overflow: hidden;
+        color: white;
+        font-size: 18px;
+        transition: all 800ms ease-in;
+        display: block;
+    }
+}
+
+
+
+
+@media screen and (max-width: 450px){
+    header{
+        display: block;
+        width:94%;
+        height: 150px;
+        gap: 5px;
+        z-index: 2;
+        background-color: rgba(160, 80, 5, 0.747);
+        position: absolute;
+        border-radius: 12px;
+        border: 0;
+        top: 10px;
+        animation: ano 10s ease;
+        transition: all 2s;
+        font-size: 14px;
+        margin-left: 12px;
+    }
+    .button{
+        background-color: rgba(160, 80, 5, 0.747);
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        position: relative;
+        top: 30px;
+        left: 15px;
+        color: white;
+        margin-left: 10px;
+        font-family: myfont;
+        margin-top: -20px;
+        transition: 800ms ease-in;
+        align-content: center;
+    }
+    .btn{
+        color: white;
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        align-content: center;
+        position: relative;
+        top: 30px;
+        left: -20px;
+        border: solid 1px white;
+        transition: 800ms ease-in;
+        margin-left: 80px;
+        font-family: myfont;
+        margin-top: -20px;
+    }
+    .fl{
+        display: flex;
+        justify-content: center;
+    }
+    .p2{
+        opacity: 0;
+        visibility: hidden;
+    }
+    .p1{
+        width: 2000rem;
+        height: 120rem;
+        margin-left: 12px;
+        display: block;
+        position: relative;
+        top: 90px;
+        overflow: visible;
+    }
+    .box1{
+        color: white;
+        border-radius: 10px;
+        background-color: transparent;
+        position: relative;
+        top: 25px; left: 40px;
+        padding: 10px;
+        height: 38rem;
+        width: 20rem;
+        font-size: 17px;
+        overflow: hidden;
+    }
+    .tbox1{
+        animation: animation 2s ease-in-out;
+        position: relative;
+        top: 0px;
+        left: 5px;
+    }
+    @keyframes animation {
+        0%{
+            position: relative;
+            left: -100%;
+            top: 0px;
+        }
+        
+        100%{
+            position: relative;
+            left: 5px;
+            top: 0px;
+        }
+    }
+    #fab{
+        color: white;
+        position: relative;
+        top:10px;
+        left: 16.4rem;
+        background-color: rgba(24, 14, 37, 0.315);
+        height: 40px;
+        width: 40px;
+        border-radius: 35%;
+        padding: 10px 13px;
+        transition: all 800ms ease-in;
+        opacity: 1;
+        animation: fab 4S ease;
+    }
+    .flex{
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        position: relative;
+        top: 25px; left: -3px;
+        padding: 10px;
+        width: 20rem;
+        height: 46rem;
+        font-size: 13px;
+        transition: all 800ms ease-in;
+        overflow: hidden;
+        font-size: 19px;
+        animation: flex 4s ease;
+    }
+    .expl{
+        position: relative;
+        top: 40px;
+    }
+    .box2{
+        position: relative;
+        top: 50px; left: 44px;
+        padding: 10px;
+        height: 14rem;
+        width: 20rem;
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        animation :  anni 5s ease-in;
+        color: white;
+        font-size: 17px;
+        transition: all 800ms ease-in;
+    }
+    .imgs{
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        position: relative;
+        top: 95px; left: -10px;
+        padding: 10px;
+        width: 20rem;
+        height: 20rem;
+        font-size: 20px;
+        transition: all 800ms ease-in;
+        background-image: url(one.jpg);
+        overflow: hidden;
+        font-size: 22px;
+        background-size: cover;
+        animation: imgs 60s ease;
+    }
+    .box3{
+        position: relative;
+        top: 30rem; left: 44px;
+        padding: 10px;
+        height: 38rem;
+        width: 20rem;
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        animation :  annis 5s ease-in;
+        overflow: hidden;
+        color: white;
+        font-size: 18px;
+        transition: all 800ms ease-in;
+        display: block;
+    }
+}
+
+
+
+@media screen and (max-width: 380px){
+    header{
+        display: block;
+        width:94%;
+        height: 150px;
+        gap: 5px;
+        z-index: 2;
+        background-color: rgba(160, 80, 5, 0.747);
+        position: absolute;
+        border-radius: 12px;
+        border: 0;
+        top: 10px;
+        animation: ano 10s ease;
+        transition: all 2s;
+        font-size: 14px;
+        margin-left: 12px;
+    }
+    .button{
+        background-color: rgba(160, 80, 5, 0.747);
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        position: relative;
+        top: 30px;
+        left: 15px;
+        color: white;
+        margin-left: 10px;
+        font-family: myfont;
+        margin-top: -20px;
+        transition: 800ms ease-in;
+        align-content: center;
+    }
+    .btn{
+        color: white;
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        align-content: center;
+        position: relative;
+        top: 30px;
+        left: -20px;
+        border: solid 1px white;
+        transition: 800ms ease-in;
+        margin-left: 80px;
+        font-family: myfont;
+        margin-top: -20px;
+    }
+    .fl{
+        display: flex;
+        justify-content: center;
+    }
+    .p2{
+        opacity: 0;
+        visibility: hidden;
+    }
+    .p1{
+        width: 2000rem;
+        height: 120rem;
+        margin-left: 12px;
+        display: block;
+        position: relative;
+        top: 90px;
+        overflow: visible;
+    }
+    .box1{
+        color: white;
+        border-radius: 10px;
+        background-color: transparent;
+        position: relative;
+        top: 25px; left: 10px;
+        padding: 10px;
+        height: 38rem;
+        width: 20rem;
+        font-size: 17px;
+        overflow: hidden;
+    }
+    .tbox1{
+        animation: animation 2s ease-in-out;
+        position: relative;
+        top: 0px;
+        left: 5px;
+    }
+    @keyframes animation {
+        0%{
+            position: relative;
+            left: -100%;
+            top: 0px;
+        }
+        
+        100%{
+            position: relative;
+            left: 5px;
+            top: 0px;
+        }
+    }
+    #fab{
+        color: white;
+        position: relative;
+        top:10px;
+        left: 16.4rem;
+        background-color: rgba(24, 14, 37, 0.315);
+        height: 40px;
+        width: 40px;
+        border-radius: 35%;
+        padding: 10px 13px;
+        transition: all 800ms ease-in;
+        opacity: 1;
+        animation: fab 4S ease;
+    }
+    .flex{
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        position: relative;
+        top: 25px; left: -10px;
+        padding: 10px;
+        width: 20rem;
+        height: 46rem;
+        font-size: 13px;
+        transition: all 800ms ease-in;
+        overflow: hidden;
+        font-size: 19px;
+        animation: flex 4s ease;
+    }
+    .expl{
+        position: relative;
+        top: 40px;
+    }
+    .box2{
+        position: relative;
+        top: 50px; left: 8px;
+        padding: 10px;
+        height: 14rem;
+        width: 20rem;
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        animation :  anni 5s ease-in;
+        color: white;
+        font-size: 17px;
+        transition: all 800ms ease-in;
+    }
+    .imgs{
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        position: relative;
+        top: 95px; left: -10px;
+        padding: 10px;
+        width: 20rem;
+        height: 20rem;
+        font-size: 20px;
+        transition: all 800ms ease-in;
+        background-image: url(one.jpg);
+        overflow: hidden;
+        font-size: 22px;
+        background-size: cover;
+        animation: imgs 60s ease;
+    }
+    .box3{
+        position: relative;
+        top: 30rem; left: 8px;
+        padding: 10px;
+        height: 38rem;
+        width: 20rem;
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        animation :  annis 5s ease-in;
+        overflow: hidden;
+        color: white;
+        font-size: 18px;
+        transition: all 800ms ease-in;
+        display: block;
+    }
+}
+
+
+
+
